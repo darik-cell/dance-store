@@ -1,0 +1,485 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ProductApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ProductApp.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\icons\\icons8-youtube-play.svg",
+      "PackagePath": "staticwebassets\\icons\\icons8-youtube-play.svg"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\icons\\icons8-вконтакте.svg",
+      "PackagePath": "staticwebassets\\icons\\icons8-вконтакте.svg"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\icons\\icons8-ютуб.svg",
+      "PackagePath": "staticwebassets\\icons\\icons8-ютуб.svg"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\icons\\visa.png",
+      "PackagePath": "staticwebassets\\icons\\visa.png"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\img\\bodi_1.jpg",
+      "PackagePath": "staticwebassets\\img\\bodi_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\img\\brands\\elegance_dancewear_collection.png",
+      "PackagePath": "staticwebassets\\img\\brands\\elegance_dancewear_collection.png"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\img\\brands\\elegance_dancewear_logo.png",
+      "PackagePath": "staticwebassets\\img\\brands\\elegance_dancewear_logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\img\\brands\\grace_couture_collection.jpeg",
+      "PackagePath": "staticwebassets\\img\\brands\\grace_couture_collection.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\img\\brands\\grace_couture_logo.webp",
+      "PackagePath": "staticwebassets\\img\\brands\\grace_couture_logo.webp"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\img\\bryuki_1.jpg",
+      "PackagePath": "staticwebassets\\img\\bryuki_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\img\\catalog\\bodi_abrir.jpg",
+      "PackagePath": "staticwebassets\\img\\catalog\\bodi_abrir.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\img\\catalog\\bodi_caero.jpg",
+      "PackagePath": "staticwebassets\\img\\catalog\\bodi_caero.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\img\\catalog\\bodi_volano.jpg",
+      "PackagePath": "staticwebassets\\img\\catalog\\bodi_volano.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\img\\catalog\\bruki_muzsk.jpg",
+      "PackagePath": "staticwebassets\\img\\catalog\\bruki_muzsk.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\img\\catalog\\muzhskie_tufli.jpg",
+      "PackagePath": "staticwebassets\\img\\catalog\\muzhskie_tufli.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\img\\catalog\\plate_clarine_beige.jpg",
+      "PackagePath": "staticwebassets\\img\\catalog\\plate_clarine_beige.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\img\\catalog\\plate_clarine_rustica_roze.jpg",
+      "PackagePath": "staticwebassets\\img\\catalog\\plate_clarine_rustica_roze.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\img\\catalog\\plate_fuego_ardiente_red.jpg",
+      "PackagePath": "staticwebassets\\img\\catalog\\plate_fuego_ardiente_red.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\img\\catalog\\rubashka_frame.jpg",
+      "PackagePath": "staticwebassets\\img\\catalog\\rubashka_frame.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\img\\catalog\\tufli_latina_zhensk.jpg",
+      "PackagePath": "staticwebassets\\img\\catalog\\tufli_latina_zhensk.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\img\\catalog\\tufli_standart_zhensk.jpg",
+      "PackagePath": "staticwebassets\\img\\catalog\\tufli_standart_zhensk.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\img\\catalog\\tufli_uniseks.jpg",
+      "PackagePath": "staticwebassets\\img\\catalog\\tufli_uniseks.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\img\\catalog\\yubka_quest_red.jpg",
+      "PackagePath": "staticwebassets\\img\\catalog\\yubka_quest_red.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\img\\catalog\\yubka_rosa_salvaje.jpg",
+      "PackagePath": "staticwebassets\\img\\catalog\\yubka_rosa_salvaje.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\img\\catalog\\Юбка Tendas Rustica.jpg",
+      "PackagePath": "staticwebassets\\img\\catalog\\Юбка Tendas Rustica.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\img\\lady_1.png",
+      "PackagePath": "staticwebassets\\img\\lady_1.png"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\img\\man_1.png",
+      "PackagePath": "staticwebassets\\img\\man_1.png"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\img\\products\\022954fa-032b-4a7c-9d0d-de8f071859f3.png",
+      "PackagePath": "staticwebassets\\img\\products\\022954fa-032b-4a7c-9d0d-de8f071859f3.png"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\img\\products\\0f841c7e-fed5-4080-9438-3316a8b90d6d.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\0f841c7e-fed5-4080-9438-3316a8b90d6d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\img\\products\\84ce9a59-2749-4dfe-99a1-408d1b92be29.png",
+      "PackagePath": "staticwebassets\\img\\products\\84ce9a59-2749-4dfe-99a1-408d1b92be29.png"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\img\\products\\9f1b6551-c16b-4dec-99b4-b85d6c28663a.png",
+      "PackagePath": "staticwebassets\\img\\products\\9f1b6551-c16b-4dec-99b4-b85d6c28663a.png"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\img\\products\\cf85ebca-2a39-4993-ab63-24090fed55fa.png",
+      "PackagePath": "staticwebassets\\img\\products\\cf85ebca-2a39-4993-ab63-24090fed55fa.png"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\img\\products\\e47906c2-e1bd-4486-b10a-6b37f63b943d.png",
+      "PackagePath": "staticwebassets\\img\\products\\e47906c2-e1bd-4486-b10a-6b37f63b943d.png"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\img\\products\\f73fd9ba-b93c-431a-b1ef-44d9f5a42627.png",
+      "PackagePath": "staticwebassets\\img\\products\\f73fd9ba-b93c-431a-b1ef-44d9f5a42627.png"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\img\\rubashka_1.jpg",
+      "PackagePath": "staticwebassets\\img\\rubashka_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\img\\shops\\shop_kazan.webp",
+      "PackagePath": "staticwebassets\\img\\shops\\shop_kazan.webp"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\img\\shops\\shop_moscow.webp",
+      "PackagePath": "staticwebassets\\img\\shops\\shop_moscow.webp"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\img\\shops\\shop_piter.webp",
+      "PackagePath": "staticwebassets\\img\\shops\\shop_piter.webp"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\img\\tufli_1.jpg",
+      "PackagePath": "staticwebassets\\img\\tufli_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\img\\tufly_1.jpg",
+      "PackagePath": "staticwebassets\\img\\tufly_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\img\\yubka_1.jpg",
+      "PackagePath": "staticwebassets\\img\\yubka_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\scripts\\cart.js",
+      "PackagePath": "staticwebassets\\scripts\\cart.js"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\scripts\\catalog-filters.js",
+      "PackagePath": "staticwebassets\\scripts\\catalog-filters.js"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\scripts\\catalog-pagination.js",
+      "PackagePath": "staticwebassets\\scripts\\catalog-pagination.js"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\scripts\\catalog-search.js",
+      "PackagePath": "staticwebassets\\scripts\\catalog-search.js"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\scripts\\form-validation.js",
+      "PackagePath": "staticwebassets\\scripts\\form-validation.js"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\scripts\\main.js",
+      "PackagePath": "staticwebassets\\scripts\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\scripts\\product-modal.js",
+      "PackagePath": "staticwebassets\\scripts\\product-modal.js"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\styles\\about_us.css",
+      "PackagePath": "staticwebassets\\styles\\about_us.css"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\styles\\cart.css",
+      "PackagePath": "staticwebassets\\styles\\cart.css"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\styles\\catalog.css",
+      "PackagePath": "staticwebassets\\styles\\catalog.css"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\styles\\history.css",
+      "PackagePath": "staticwebassets\\styles\\history.css"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\styles\\product.css",
+      "PackagePath": "staticwebassets\\styles\\product.css"
+    },
+    {
+      "Id": "C:\\Users\\Alenushka\\study_projects\\ProductApp\\wwwroot\\styles\\style.css",
+      "PackagePath": "staticwebassets\\styles\\style.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ProductApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ProductApp.props",
+      "PackagePath": "build\\ProductApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ProductApp.props",
+      "PackagePath": "buildMultiTargeting\\ProductApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ProductApp.props",
+      "PackagePath": "buildTransitive\\ProductApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

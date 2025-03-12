@@ -1,0 +1,205 @@
+/* Общие стили для корзины */
+.cart {
+    font-family: 'Oswald', sans-serif;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.cart-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-left {
+    flex: 2;
+}
+
+.cart-right {
+    flex: 1;
+    margin-left: 30px;
+}
+
+.cart-items {
+    border: 1px solid #d3d3d3;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.cart-item td {
+    padding: 20px;
+    border-bottom: 1px solid #d3d3d3;
+    text-align: center;
+}
+
+.cart-item-img {
+    width: 80px;
+    border-radius: 5px;
+    transition: transform 0.3s ease; /* Плавное увеличение */
+}
+
+.cart-item-img:hover {
+    transform: scale(1.2); /* Увеличиваем изображение при наведении */
+}
+
+.cart-item-count {
+    width: 20%;
+    padding: 5px;
+    border: 1px solid #d3d3d3;
+    border-radius: 3px;
+}
+
+.cart-item-btn-delete {
+    background-color: #8a2be2;
+    border: none;
+    color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cart-item-btn-delete:hover {
+    background-color: #7a1bd2;
+}
+
+.cart-summary {
+    background-color: #fff;
+    border: 1px solid #d3d3d3;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.cart-summary-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.cart-submit-btn {
+    display: block;
+    margin: 20px auto 0 auto; /* Добавлен отступ сверху для разделения от предыдущих элементов */
+    height: 50px; /* Увеличена высота для лучшего восприятия */
+    font-size: 18px; /* Увеличен размер шрифта для улучшения читаемости */
+    background-color: #4CAF50; /* Цвет кнопки */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 60%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cart-submit-btn:hover {
+    background-color: #45a049;
+}
+
+.cart-item-unit-price,
+.cart-item-price-total {
+    white-space: nowrap;
+}
+
+#error-messages {
+    display: none; /* Скрыть по умолчанию */
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f8d7da; /* Светло-красный фон */
+    color: #721c24; /* Темно-красный текст */
+    border: 1px solid #f5c6cb; /* Красная граница */
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 1.5;
+    max-width: 100%;
+}
+
+#error-messages ul {
+    padding-left: 20px;
+}
+
+#error-messages li {
+    margin-bottom: 5px;
+}
+
+/* Стили для формы доставки */
+.cart-delivery-form {
+    background-color: #f9f9f9; /* Фоновый цвет формы */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart-delivery-form h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+    font-size: 0.95em;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #66afe9;
+    outline: none;
+}
+
+.form-group small {
+    margin-top: 5px;
+    color: #777;
+    font-size: 0.85em;
+}
+
+/* Стили для сообщений об ошибках */
+.error-message {
+    color: #d9534f; /* Красный цвет для ошибок */
+    font-size: 0.85em;
+    margin-top: 5px;
+    display: none; /* Скрывать по умолчанию */
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .cart-container {
+        flex-direction: column;
+    }
+
+    .cart-left,
+    .cart-right {
+        width: 100%;
+        margin-left: 0; /* Убираем отступ слева на мобильных устройствах */
+    }
+
+    .cart-summary {
+        margin-top: 20px;
+    }
+
+    .cart-submit-btn {
+        width: 80%; /* Увеличиваем ширину кнопки на мобильных устройствах */
+    }
+}

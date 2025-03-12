@@ -1,0 +1,83 @@
+@model ProductApp.Entities.Product
+
+@{
+    ViewData["Title"] = "Бальная Элегантность. " + Model.Name;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section AdditionalStyles {
+    <link rel="stylesheet" href="~/styles/product.css" />
+}
+
+<main class="product-page">
+    <section class="showcase">
+        <div class="product-image-box">
+            <img src="@Model.Image" alt="@Model.Name" class="product-main-image"/>
+        </div>
+        <div class="product-title-box">
+            <h1 class="product-title">@Model.Name</h1>
+            <div class="product-price">@Model.Price &#8381;</div>
+            <ul class="product-parameters-list">
+                <li class="product-parameter">Размер<br><span class="product-parameter-value">@Model.Size</span></li>
+                <li class="product-parameter">Цвет<br><span class="product-parameter-value">@Model.Color</span></li>
+                <li class="product-parameter">Материал<br><span class="product-parameter-value">@Model.Material</span></li>
+            </ul>
+            <div>
+                <p>@Model.Description</p>
+            </div>
+            <button class="product-submit-btn">В корзину</button>
+        </div>
+    </section>
+    <section class="description">
+        <h1 class="description-title">Описание</h1>
+        <p>@Model.Description</p>
+        <aside class="product-characteristics">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Характеристика</th>
+                        <th>Значение</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>СТОИМОСТЬ С НДС</td>
+                        <td>@Model.Price р.</td>
+                    </tr>
+                    <tr>
+                        <td>МАТЕРИАЛ</td>
+                        <td>@Model.Material</td>
+                    </tr>
+                    <tr>
+                        <td>РАЗМЕР</td>
+                        <td>@Model.Size</td>
+                    </tr>
+                    <tr>
+                        <td>ЦВЕТ</td>
+                        <td>@Model.Color</td>
+                    </tr>
+                    <tr>
+                        <td>ДЛИНА</td>
+                        <td>@Model.Length см</td>
+                    </tr>
+                    <tr>
+                        <td>ПОЛ</td>
+                        <td>@Model.Gender</td>
+                    </tr>
+                    <tr>
+                        <td>СЕЗОН</td>
+                        <td>@Model.Season</td>
+                    </tr>
+                    <tr>
+                        <td>УХОД</td>
+                        <td>@Model.Care</td>
+                    </tr>
+                </tbody>
+            </table>
+        </aside>
+    </section>
+</main>
+
+@section Scripts {
+    <script src="~/scripts/cart.js" type="module"></script>
+}

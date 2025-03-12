@@ -1,0 +1,86 @@
+h2, h3, h4 {
+    margin: 5px 0;
+    color: #8a2be2; /* Фиолетовый цвет */
+}
+
+p, li {
+    margin: 5px 0;
+    line-height: 1.6;
+    color: #555;
+}
+
+.brand-history {
+    display: grid;
+    grid-template-columns: 0.1fr 0.8fr;
+    font-family: 'Oswald', sans-serif;
+}
+
+.history-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.brand-selection {
+    position: sticky;
+    top: 20px;
+    height: fit-content;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.article-link a:hover {
+    color: #8a2be2;
+    text-decoration: underline;
+}
+
+.history-picture {
+    width: 500px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.history-article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 50px;
+}
+
+.history-article img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.article-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: #333;
+}
+
+.article-content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.article-content-subtitle {
+    font-size: 18px;
+    font-style: italic;
+    color: #8a2be2;
+}
+
+img.brand_logo {
+    width: 300px;
+    height: auto;
+}
+
+img.brand_collection {
+    width: 600px;
+    height: auto;
+}

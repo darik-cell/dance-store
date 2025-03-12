@@ -1,0 +1,14 @@
+@model IEnumerable<ProductApp.Entities.Product>
+
+<div class="catalog-products">
+    @foreach (var product in Model)
+    {
+        <a href="@Url.Action("Product", "Home", new { id = product.Id })" class="product-card-box">
+            <img src="@product.Image" alt="@product.Name" class="product-card-image" />
+            <div class="product-card-info">
+                <div>@product.Name</div>
+                <strong>@product.Price &#8381;</strong>
+            </div>
+        </a>
+    }
+</div>

@@ -1,0 +1,43 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 20px;
+    justify-self: center;
+
+    margin: 50px auto;
+    max-width: 1200px;
+}
+
+.about-us-welcome {
+    grid-column: span 2;
+    text-align: center;
+    color: #555;
+}
+
+p {
+    font-family: 'Oswald', sans-serif;
+    color: #555;
+}
+
+.dealer-center-header {
+    text-align: left;
+    margin: 0;
+    color: #8a2be2;
+}
+
+.dealer-center {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(138, 43, 226, 0.1);
+}
+
+.dealer-center-img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}

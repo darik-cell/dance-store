@@ -1,0 +1,217 @@
+@model IEnumerable<ProductApp.Entities.Product>
+
+@{
+    ViewData["Title"] = "Бальная Элегантность. Каталог";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section AdditionalStyles {
+    <link rel="stylesheet" href="~/styles/catalog.css" />
+}
+
+<div class="search-container">
+    <input type="text" id="productSearch" placeholder="Поиск товаров..." style="width:300px; padding: 8px;"/>
+    <ul id="searchSuggestions"></ul>
+</div>
+
+<main class="catalog">
+    <form class="catalog-sidebar" method="get" action="@Url.Action("Catalog", "Home")">
+        <!-- Фильтр по полу -->
+        <div class="sidebar-filter-category">
+            <div class="sidebar-title">Пол</div>
+            <ul class="sidebar-list">
+                <li>
+                    <input type="checkbox" name="gender" value="Женский" /> Для женщин
+                </li>
+                <li>
+                    <input type="checkbox" name="gender" value="Мужской" /> Для мужчин
+                </li>
+            </ul>
+        </div>
+
+        <!-- Фильтр по типу одежды -->
+        <div class="sidebar-filter-category">
+            <div class="sidebar-title">Тип одежды</div>
+            <ul class="sidebar-list">
+                <li><input type="checkbox" name="types" value="Боди" /> Боди</li>
+                <li><input type="checkbox" name="types" value="Юбка" /> Юбка</li>
+                <li><input type="checkbox" name="types" value="Рубашка" /> Рубашка</li>
+                <li><input type="checkbox" name="types" value="Брюки" /> Брюки</li>
+                <li><input type="checkbox" name="types" value="Туфли" /> Туфли</li>
+                <li><input type="checkbox" name="types" value="Платье" /> Платье</li>
+                <li><input type="checkbox" name="types" value="Футболка" /> Футболка</li>
+                <li><input type="checkbox" name="types" value="Водолазка" /> Водолазка</li>
+            </ul>
+        </div>
+
+        <!-- Фильтр по цвету -->
+        <div class="sidebar-filter-category">
+            <div class="sidebar-title">Цвет</div>
+            <ul class="sidebar-list">
+                <li><input type="checkbox" name="colors" value="Красный" /> Красный</li>
+                <li><input type="checkbox" name="colors" value="Синий" /> Синий</li>
+                <li><input type="checkbox" name="colors" value="Черный" /> Черный</li>
+                <li><input type="checkbox" name="colors" value="Белый" /> Белый</li>
+                <li><input type="checkbox" name="colors" value="Зеленый" /> Зеленый</li>
+                <li><input type="checkbox" name="colors" value="Желтый" /> Желтый</li>
+            </ul>
+        </div>
+
+        <!-- Фильтр по цене -->
+        <div class="sidebar-filter-category">
+            <div class="sidebar-title">Цена</div>
+            <input class="sidebar-number-input" type="number" name="priceFrom" placeholder="от" />
+            <span>-</span>
+            <input class="sidebar-number-input" type="number" name="priceTo" placeholder="до" />
+        </div>
+
+        <button class="sidebar-submit" type="submit">Применить</button>
+        <button id="addProductBtn" type="button" class="sidebar-add-btn sidebar-submit">Добавить товар</button>
+    </form>
+
+    <!-- Контейнер для списка товаров -->
+    <div id="productsContainer">
+        @Html.Partial("_ProductList", Model)
+    </div>
+
+    <!-- Блок пагинации -->
+    <div id="paginationControls">
+        @for (int i = 1; i <= ViewBag.TotalPages; i++)
+        {
+            if (i == ViewBag.CurrentPage)
+            {
+                <span class="current-page">@i</span>
+            }
+            else
+            {
+                <a href="#" class="page-link" data-page="@i">@i</a>
+            }
+        }
+    </div>
+</main>
+
+<!-- Модальное окно для добавления товара -->
+<div id="addProductModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <form id="addProductForm" enctype="multipart/form-data">
+            <h2>Добавить товар</h2>
+
+            <div class="form-group">
+                <label for="Name">Название:</label>
+                <input type="text" id="Name" name="Name" placeholder="Введите название товара" required />
+                <span class="error-message" id="Name_error"></span>
+                <small>Введите название товара.</small>
+            </div>
+
+            <div class="form-group">
+                <label for="Price">Цена:</label>
+                <input type="number" id="Price" name="Price" step="0.01" placeholder="Введите цену товара" required />
+                <span class="error-message" id="Price_error"></span>
+                <small>Цена должна быть больше 0.</small>
+            </div>
+
+            <div class="form-group">
+                <label for="Size">Размер:</label>
+                <input type="text" id="Size" name="Size" placeholder="Введите размер товара" required />
+                <span class="error-message" id="Size_error"></span>
+                <small>Введите размер товара.</small>
+            </div>
+
+            <div class="form-group">
+                <label for="Color">Цвет:</label>
+                <input type="text" id="Color" name="Color" placeholder="Введите цвет товара" required />
+                <span class="error-message" id="Color_error"></span>
+                <small>Введите цвет товара.</small>
+            </div>
+
+            <div class="form-group">
+                <label for="Material">Материал:</label>
+                <input type="text" id="Material" name="Material" placeholder="Введите материал товара" required />
+                <span class="error-message" id="Material_error"></span>
+                <small>Введите материал товара.</small>
+            </div>
+
+            <div class="form-group">
+                <label for="Description">Описание:</label>
+                <textarea id="Description" name="Description" placeholder="Введите описание товара" required></textarea>
+                <span class="error-message" id="Description_error"></span>
+                <small>Введите подробное описание товара.</small>
+            </div>
+
+            <div class="form-group">
+                <label for="Gender">Пол:</label>
+                <select id="Gender" name="Gender" required>
+                    <option value="">Выберите</option>
+                    <option value="Женский">Женский</option>
+                    <option value="Мужской">Мужской</option>
+                </select>
+                <span class="error-message" id="Gender_error"></span>
+                <small>Выберите, для кого предназначен товар.</small>
+            </div>
+
+            <div class="form-group">
+                <label for="Type">Тип:</label>
+                <select id="Type" name="Type" required>
+                    <option value="">Выберите тип</option>
+                    <option value="Рубашка">Рубашка</option>
+                    <option value="Топ">Топ</option>
+                    <option value="Брюки">Брюки</option>
+                    <option value="Боди">Боди</option>
+                    <option value="Юбка">Юбка</option>
+                    <option value="Туфли">Туфли</option>
+                    <option value="Платье">Платье</option>
+                    <option value="Футболка">Футболка</option>
+                    <option value="Водолазка">Водолазка</option>
+                </select>
+                <span class="error-message" id="Type_error"></span>
+                <small>Выберите тип товара.</small>
+            </div>
+
+            <div class="form-group">
+                <label for="Care">Уход:</label>
+                <input type="text" id="Care" name="Care" placeholder="Рекомендации по уходу" required />
+                <span class="error-message" id="Care_error"></span>
+                <small>Введите рекомендации по уходу за товаром.</small>
+            </div>
+
+            <div class="form-group">
+                <label for="Season">Сезон:</label>
+                <select id="Season" name="Season" required>
+                    <option value="">Выберите сезон</option>
+                    <option value="Весна">Весна</option>
+                    <option value="Лето">Лето</option>
+                    <option value="Осень">Осень</option>
+                    <option value="Зима">Зима</option>
+                    <option value="Мульти">Мульти / Все сезоны</option>
+                </select>
+                <span class="error-message" id="Season_error"></span>
+                <small>Выберите сезон, для которого предназначен товар.</small>
+            </div>
+
+            <div class="form-group">
+                <label for="Length">Длина:</label>
+                <input type="number" id="Length" name="Length" placeholder="Введите длину товара" required />
+                <span class="error-message" id="Length_error"></span>
+                <small>Введите длину товара (например, 140).</small>
+            </div>
+
+            <div class="form-group">
+                <label for="ImageFile">Изображение:</label>
+                <input type="file" id="ImageFile" name="ImageFile" accept="image/*" required />
+                <span class="error-message" id="ImageFile_error"></span>
+                <small>Выберите изображение товара.</small>
+            </div>
+
+            <button type="submit">Добавить товар</button>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="~/scripts/catalog-pagination.js"></script>
+    <script src="~/scripts/catalog-filters.js"></script>
+    <script src="~/scripts/product-modal.js"></script>
+    <script src="~/scripts/catalog-search.js"></script>
+}

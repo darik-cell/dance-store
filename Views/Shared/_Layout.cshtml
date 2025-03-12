@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <title>Бальная Элегантность - @ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/styles/style.css" />
+    @RenderSection("AdditionalStyles", required: false)
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="~/img/logo.png" alt="Логотип" class="our-logo" />
+            <ul>
+                <li class="nav-item"><a href="@Url.Action("Index", "Home")">Главная</a></li>
+                <li class="nav-item"><a href="@Url.Action("Catalog", "Home")">Каталог</a></li>
+                <li class="nav-item"><a href="@Url.Action("History", "Home")">Бренды</a></li>
+                <li class="nav-item"><a href="@Url.Action("AboutUs", "Home")">О нас</a></li>
+                <li class="nav-item"><a href="@Url.Action("Cart", "Home")">Корзина</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    @RenderBody()
+
+    <footer>
+        <div class="social-media-links">
+            <img src="~/img/logo.png" alt="бренд иконка" class="brand-logo">
+            <span>Мы в социальных сетях</span>
+            <div>
+                <a href="#"><img src="~/icons/icons8-вконтакте.svg" alt="vk"></a>
+                <a href="#"><img width="52" src="~/icons/icons8-youtube-play.svg" alt="youtube"></a>
+            </div>
+        </div>
+
+        <table>
+            <tr>
+                <td><a href="@Url.Action("Catalog", "Home")">Женский ассортимент</a></td>
+                <td><a href="@Url.Action("History", "Home")">История брендов</a></td>
+                <td>Москва, ул. Танцевальная, 10:<br />+7 495 123-45-67</td>
+            </tr>
+            <tr>
+                <td><a href="@Url.Action("Catalog", "Home")">Мужской ассортимент</a></td>
+                <td><a href="@Url.Action("History", "Home")">История костюмов</a></td>
+                <td>Санкт-Петербург, ул. Балетная, 20:<br />+7 812 234-56-78</td>
+            </tr>
+            <tr>
+                <td><a href="@Url.Action("AboutUs", "Home")">Наши магазины</a></td>
+                <td><a href="@Url.Action("Delivery", "Home")">Доставка</a></td>
+                <td>Казань, ул. Искусств, 30:<br />+7 843 345-67-89</td>
+            </tr>
+            <tr>
+                <td><a href="#">Оферта и политика конфиденциальности</a></td>
+                <td><a href="#">Аксессуары</a></td>
+                <td>Екатеринбург, ул. Танцплощадка, 40:<br />+7 343 456-78-90</td>
+            </tr>
+            <tr>
+                <td colspan="3"><a href="#"><img src="~/icons/visa.png" alt="Платежные системы" /></a></td>
+            </tr>
+        </table>
+    </footer>
+    <button class="scroll-to-top" id="scrollToTopBtn">↑</button>
+    <script src="~/scripts/main.js" type="module"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,35 @@
+@model IEnumerable<ProductApp.Entities.Product>
+
+@{
+    ViewData["Title"] = "Список товаров";
+}
+
+<h2>Список товаров</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.First().Name)</th>
+            <th>@Html.DisplayNameFor(model => model.First().Price)</th>
+            <th>@Html.DisplayNameFor(model => model.First().Size)</th>
+            <th>@Html.DisplayNameFor(model => model.First().Color)</th>
+            <th>Действия</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var product in Model)
+    {
+         <tr>
+              <td>@product.Name</td>
+              <td>@product.Price</td>
+              <td>@product.Size</td>
+              <td>@product.Color</td>
+              <td>
+                  <a asp-action="Details" asp-route-id="@product.Id">Подробнее</a> |
+                  <a asp-action="Edit" asp-route-id="@product.Id">Редактировать</a> |
+                  <a asp-action="Delete" asp-route-id="@product.Id">Удалить</a>
+              </td>
+         </tr>
+    }
+    </tbody>
+</table>
